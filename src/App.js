@@ -1,5 +1,7 @@
 // import { createContext } from "react";
 
+import Counter from "./Components/HOC/Counter";
+
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Header from "./PrivateRoute/Header";
 // import Home from "./PrivateRoute/Home";
@@ -56,6 +58,7 @@ function App() {
 
   return (
     <div>
+      <Counter />
       {/* <Router>
         <Header />
         <Routes>
