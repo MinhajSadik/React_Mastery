@@ -1,12 +1,12 @@
 // import { createContext } from "react";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./PrivateRoute/Header";
-import Home from "./PrivateRoute/Home";
-import HomePage from "./PrivateRoute/HomePage";
-import Login from "./PrivateRoute/Login";
-import PrivateOutlet from "./PrivateRoute/PrivateOutlet";
-import Dashboard from "./ReactRouterDOMv5/Dashboard";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import Header from "./PrivateRoute/Header";
+// import Home from "./PrivateRoute/Home";
+// import HomePage from "./PrivateRoute/HomePage";
+// import Login from "./PrivateRoute/Login";
+// import PrivateOutlet from "./PrivateRoute/PrivateOutlet";
+// import Dashboard from "./ReactRouterDOMv5/Dashboard";
 
 // export const counterContext = createContext();
 
@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div>
-      <Router>
+      {/* <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -66,8 +66,7 @@ function App() {
             <Route path="dashboard" element={<Dashboard />} />
           </Route>
         </Routes>
-      </Router>
-
+      </Router> */}
       {/* <Router>
         <Header />
         <Routes>
@@ -82,7 +81,6 @@ function App() {
           <Route path="/posts" element={<Posts />} />
         </Routes>
       </Router> */}
-
       {/* <Router>
         <Navbar />
         <Switch>
@@ -104,7 +102,6 @@ function App() {
        <Route component={() => <h1>404</h1>} />
       </Switch>
      </Router> */}
-
       {/* <Layout /> */}
       {/* <GetPostReducer /> */}
       {/* <div>Count: {count} </div>
