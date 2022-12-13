@@ -1,9 +1,8 @@
-import React from "react";
+import { Component } from "react";
 
-class Emoji extends React.Component {
+class Emoji extends Component {
   addBracket = (text) => `[ ${text} ]`;
-
-  render(override) {
+  render() {
     return this.props.children({ addBracket: this.addBracket });
   }
 }
